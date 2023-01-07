@@ -2589,11 +2589,29 @@ h1, h2, h3, h4, h5, h6 {
     top: 87%;
   }
 }
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 436px) {
   .footer footer .address .icons i {
     margin: 1.2rem 0.4rem 0 0;
     font-size: 1rem;
     padding: 0.4rem;
+  }
+  .footer footer .heading h4 {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 353px) {
+  .footer footer .address .icons i {
+    margin: 1.3rem 0.2rem 0 0;
+    font-size: 1rem;
+  }
+  .footer footer .heading h4 {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+    font-weight: 400;
   }
 }
 @media only screen and (max-width: 321px) {
