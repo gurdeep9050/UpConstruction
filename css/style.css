@@ -2219,6 +2219,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (max-width: 426px) {
+  .banner .header nav .nav-ul li a {
+    margin: 0.55rem 0;
+  }
+  .mobile-navbar-btn {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
   .get-a-quote .fix-container {
     padding: 3rem 0;
   }
@@ -2580,6 +2587,13 @@ h1, h2, h3, h4, h5, h6 {
   .blog-container .post .img-container h5 {
     font-size: 0.75rem;
     top: 87%;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .footer footer .address .icons i {
+    margin: 1.2rem 0.4rem 0 0;
+    font-size: 1rem;
+    padding: 0.4rem;
   }
 }
 @media only screen and (max-width: 321px) {
